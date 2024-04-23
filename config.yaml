@@ -1,0 +1,12 @@
+UNIT_TEST_CONFIG:
+    SQLALCHEMY_DATABASE_URI: 'sqlite:///:memory:'
+    TEST_USER: {'name':'testuser',
+                'email':test@sample.com,
+                'password':'test@123'}
+    TEST_PRODUCT: {'product_name': 'Test Product',
+            'prod_discription': 'Test Description',
+            'manfacture_info': 'Test Manufacturer',
+            'serial_number': '12345',
+            'manfacture_date': '2024-04-01',
+            'warranty_info': '',
+            'prod_category': ''}
